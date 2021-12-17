@@ -16,7 +16,7 @@ export default class EvenAndOdd extends Component {
     }
 
     assignEvenAndOdds(userInput) {
-        let numsArray = [...userInput];
+        let numsArray = userInput.split(',');
         let evens = [];
         let odds = [];
 
